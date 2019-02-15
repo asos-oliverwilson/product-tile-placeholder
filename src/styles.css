@@ -1,0 +1,44 @@
+.App {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notLoaded {
+  animation: pulse 2s infinite;
+  background-color: #b6bcbb;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: #b6bcbb;
+  }
+  50% {
+    background-color: #109982;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 383px;
+  width: 300px;
+}
+
+.titleFirst {
+  margin-top: 8px;
+  height: 20px;
+  width: 250px;
+}
+
+.titleSecond {
+  margin-top: 8px;
+  height: 20px;
+  width: 150px;
+  margin-left: 0;
+}
